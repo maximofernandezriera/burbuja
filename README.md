@@ -14,3 +14,33 @@ Es un método de [ordenación](https://es.wikipedia.org/wiki/Ordenamiento_de_bur
 # Explicación detallada de la Universidad Complutense de Madrid e implementación
 
 - https://youtu.be/yfNLLIPtoYs?si=dF15CQtNe54oGk_M
+
+# Este kata es muy recomendable: https://www.codewars.com/kata/5a63948acadebff56f000018/train/java
+
+# Pseudocódigo
+
+    funcion ProductOfMaxK() 
+        definir array[5] entero = {4, 3, 5, 2, 1}
+        definir k entero = 2
+        definir producto entero = 1
+        definir i, j, temp entero
+    
+        // Ordenar el arreglo de mayor a menor
+        para (i <- 1; i <= longitud(array) - 1; i++) {
+            para (j <- i + 1; j <= longitud(array); j++) {
+                si (array[i] < array[j]) {
+                    temp = array[i]
+                    array[i] = array[j]
+                    array[j] = temp
+                }
+            }
+        }
+    
+        // Calcular el producto de los primeros k números
+        para (i <- 1; i <= k; i++) {
+            producto = producto * array[i]
+        }
+    
+        escribir "El producto de los ", k, " números máximos es: ", producto
+    fin funcion
+
