@@ -26,8 +26,8 @@ Es un método de [ordenación](https://es.wikipedia.org/wiki/Ordenamiento_de_bur
         definir i, j, temp entero
     
         // Ordenar el arreglo de mayor a menor
-        para (i <- 1; i <= longitud(array) - 1; i++) {
-            para (j <- i + 1; j <= longitud(array); j++) {
+        para (i <- 1; i <= longitud(array); i++) {
+            para (j <- i + 1; j <= longitud(array) - 1; j++) {
                 si (array[i] < array[j]) {
                     temp = array[i]
                     array[i] = array[j]
@@ -38,7 +38,7 @@ Es un método de [ordenación](https://es.wikipedia.org/wiki/Ordenamiento_de_bur
     
         // Calcular el producto de los primeros k números
         para (i <- 1; i <= k; i++) {
-            producto = producto * array[i]
+            producto = producto * (longitud(array) - 1 - i)
         }
     
         escribir "El producto de los ", k, " números máximos es: ", producto
