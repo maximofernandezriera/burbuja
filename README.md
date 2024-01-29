@@ -10,3 +10,7 @@ Es un método de [ordenación](https://es.wikipedia.org/wiki/Ordenamiento_de_bur
 
 
 ![imagen](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
+
+# Explicación detallada de la Universidad Complutense de Madrid e implementación
+
+- https://youtu.be/yfNLLIPtoYs?si=dF15CQtNe54oGk_M
