@@ -36,7 +36,7 @@ Es un método de [ordenación](https://es.wikipedia.org/wiki/Ordenamiento_de_bur
             }
         }
     
-        // Calcular el producto de los primeros k números
+        // Calcular el array de los primeros k números
         para (i <- 1; i <= k; i++) {
             producto = producto * (longitud(array) - 1 - i)
         }
