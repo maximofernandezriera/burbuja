@@ -6,7 +6,7 @@ Puedes visualizarlos [aquí](https://www.cs.usfca.edu/~galles/visualization/Algo
 ### Burbuja
 Es un método de [ordenación](https://es.wikipedia.org/wiki/Ordenamiento_de_burbuja) con eficiencia O(n²). Es decir, el tiempo de ejecución es proporcional al cuadrado del tamaño del array. Este método consiste en ir comparando cada elemento con el siguiente, y si el elemento actual es mayor que el siguiente, se intercambian. Este proceso se repite hasta que no se producen más intercambios. Este método es muy sencillo de implementar, pero no es el más eficiente.
 
-- https://www.youtube.com/watch?v=lyZQPjUT5B4
+- https://www.youtube.com/watch?v=lyZQPjUT5B4 
 
 
 ![imagen](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
