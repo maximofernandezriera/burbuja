@@ -25,7 +25,7 @@ Es un método de [ordenación](https://es.wikipedia.org/wiki/Ordenamiento_de_bur
         definir producto entero = 1
         definir i, j, temp entero
     
-        // Ordenar el arreglo de mayor a menor
+        // Ordenar el array de mayor a menor
         para (i <- 1; i <= longitud(array); i++) {
             para (j <- i + 1; j <= longitud(array) - 1; j++) {
                 si (array[i] < array[j]) {
